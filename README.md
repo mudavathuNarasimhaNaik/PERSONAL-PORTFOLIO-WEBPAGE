@@ -71,3 +71,13 @@ Personal branding and portfolio presentation
 Certificate gallery
 
 Form-based contact UI
+
+
+
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/8d20f6c7-f389-4f9b-b078-189a70e1ef30)
+![Image](https://github.com/user-attachments/assets/606d4424-dd3d-4cc4-bc2f-b8026331678e)
+![Image](https://github.com/user-attachments/assets/604d14ff-9f03-4677-87ef-a4b1d08a3857)
+![Image](https://github.com/user-attachments/assets/abb437bc-22a9-400a-8600-307b62edde1a)
+![Image](https://github.com/user-attachments/assets/57210b82-290f-47da-a570-edfd09c8b64f)
