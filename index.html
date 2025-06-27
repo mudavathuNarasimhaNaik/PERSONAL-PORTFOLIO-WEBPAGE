@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark px-4 py-3" style="background-color: #112240 !important;">
+    <a class="navbar-brand text-info fw-bold" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link text-info" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-info" href="about.html">About Me</a></li>
+        <li class="nav-item"><a class="nav-link text-info" href="certificates.html">Certificates</a></li>
+        <li class="nav-item"><a class="nav-link text-info" href="contact.html">Contact Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex flex-wrap justify-content-center align-items-center text-light py-5 px-4" style="background-color: #0a192f;">
+    <div class="hero-text col-md-6 mb-4">
+      <h1 class="display-5 fw-bold">Hi, I'm <span style="color:#64ffda;">M. Narasimha Naik</span></h1>
+      <h2 class="h4 text-muted">Frontend Developer</h2>
+      <p class="my-3">I build modern and responsive web applications with clean UI and great user experience.</p>
+      <a href="contact.html" class="btn btn-info text-dark fw-bold">Hire Me</a>
+    </div>
+    <div class="hero-img col-md-5 text-center">
+      <img src="/home/rgukt/Pictures/Screenshots/narasim.png" alt="My Profile" class="img-fluid rounded shadow" style="max-width: 300px; border: 3px solid #64ffda;">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects py-5 px-4" style="background-color: #0a192f;">
+    <h2 class="text-center mb-4" style="color:#64ffda;">My Projects</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 text-light" style="background-color: #112240;">
+          <img src="/home/rgukt/Pictures/Screenshots/Screenshot from 2025-06-22 09-39-11.png" class="card-img-top" alt="Agri IoT">
+          <div class="card-body">
+            <h5 class="card-title text-info">Agri IoT System</h5>
+            <p class="card-text">Smart agriculture solution using IoT to monitor rice field conditions and improve yield efficiency.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-light" style="background-color: #112240;">
+          <img src="/home/rgukt/Pictures/Screenshots/Screenshot from 2025-06-21 20-16-29.png" class="card-img-top" alt="E-Learning">
+          <div class="card-body">
+            <h5 class="card-title text-info">E-Learning Platform</h5>
+            <p class="card-text">Designed a responsive e-learning UI with course listing, progress tracking, and embedded videos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 text-light" style="background-color: #112240;">
+          <img src="/home/rgukt/Pictures/Screenshots/Screenshot from 2025-06-21 20-18-32.png" class="card-img-top" alt="Chat App">
+          <div class="card-body">
+            <h5 class="card-title text-info">QUIZE_application</h5>
+            <p class="card-text">This Quiz Application tests users with multiple-choice questions on various topics.
+              It tracks the score and provides instant feedback on answers.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3" style="background-color: #112240; color: #8892b0;">
+    © 2025 Narasimha Naik — All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
